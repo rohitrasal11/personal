@@ -6,10 +6,14 @@ import os
 import smtplib
 import wikipedia
 
+listener = sr.Recognizer()
+engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[0].id)
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-# print(voices)
+print(voices)
 engine.setProperty('voice', voices[0].id)
 
 def speak(audio):
@@ -20,18 +24,23 @@ def speak(audio):
 def wishme():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
+        print("good morning")
         speak("good morning")
 
-    elif hour>=12 and hour>18:
+    elif hour>=12 and hour<18:
+        print("good afternoon")
         speak("good afternoon")
 
     else:
+        print("good evening")
         speak("good evening")
 
 def takecommand():
+    # it takes microphone input from the user and returns string output.
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
+        
         r.pause_threshold = 1
         audio = r.listen(source)
 
@@ -45,17 +54,19 @@ def takecommand():
 
         print("say that again please")
         return "none"
+    return query
 
 def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
+    server.helo()
     server.starttls()
     server.login('youremail@gmail.com', 'your-password')
     server.sendmail('youremail@gmail.com', to, content)
     server.close()
 
 if __name__ == "__main__":
-    # speak("rohit is a good boy")
+    print("hello, i am jarvis. welcome to my world")
+    speak("hello, i am jarvis. welcome to my world")
     wishme()
     while True:
         query = takecommand().lower()
@@ -77,11 +88,11 @@ if __name__ == "__main__":
             webbrowser.open("stackoverflow.com")
 
 
-        # elif 'play music' in query:
-        #     music_dir =  
-        # songs = os.listdir(music_dir)
-        # print(songs)
-        # os.startfile(os.path.join(music_dir, songd[0]))
+        elif 'play music' in query:
+            music_dir = 'D:\\rohit\\music\\songs'
+            songs = os.listdir(music_dir)
+            print(songs)
+            os.startfile(os.path.join(music_dir, songs[0]))
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
