@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0ee23a3-f6f9-4709-86a8-8a85d4aecf45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Jarvis/jarvis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/static/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/static/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/static/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/static/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/templates/services.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1zOxa2V0GG4FjbTHgov4mxuJEFE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0ee23a3-f6f9-4709-86a8-8a85d4aecf45" name="Changes" comment="" />
+      <created>1634033013115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634033013115</updated>
+    </task>
+    <servers />
+  </component>
+</project>
